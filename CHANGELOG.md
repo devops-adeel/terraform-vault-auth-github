@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0 (2021-06-28)
+
+
+### Features
+
+* added inspec integration test ([7d6241b](https://www.github.com/devops-adeel/terraform-vault-auth-github/commit/7d6241becdb716f52a38b6510a57901285e09c9e))
+* added README doc ([96414ac](https://www.github.com/devops-adeel/terraform-vault-auth-github/commit/96414acc4180eaad701f81fa74cff78213e04d21))
+
 ## [0.2.0](https://www.github.com/devops-adeel/template-module-repo/compare/v0.1.0...v0.2.0) (2021-03-24)
 
 
