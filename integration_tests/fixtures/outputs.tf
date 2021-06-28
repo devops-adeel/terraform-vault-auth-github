@@ -1,15 +1,12 @@
-output "token" {
-  value = vault_approle_auth_backend_login.default.client_token
-}
-
 output "url" {
-  value = var.vault_address
+  value = data.terraform_remote_state.default.outputs.vault_public_endpoint_url
 }
 
 output "namespace" {
-  value = "admin/terraform-vault-secrets-something/"
+  value = format("admin/%s/", local.application)
 }
 
-output "path" {
-  value = "abritrary path"
+output "org" {
+  description = "Github Organisation"
+  value       = local.application
 }
